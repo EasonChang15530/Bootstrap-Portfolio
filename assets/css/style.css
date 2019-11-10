@@ -1,0 +1,18 @@
+body {
+  width: 100%;
+}
+
+.jumbotron {
+  background-color: transparent !important; 
+  background-image: url("../images/library.jpeg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: seashell;
+}
+
+.jumbotron p {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+
+}
