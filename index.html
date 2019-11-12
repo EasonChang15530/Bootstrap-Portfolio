@@ -6,22 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bailing's Portfolio</title>
+  <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- google font -->
   <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-
 </head>
 
-<body>
-  <div class="jumbotron jumbotron-fluid">
+<!-- scrollspy -->
+
+<body data-spy="scroll" data-target="#navbar-example">
+
+  <!-- navbar -->
+  <nav id="navbar-example2" class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#about-me">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0"></div>
+  <!-- jumbotron -->
+  <div id="about-me" class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="display-4">Bailing's Portfolio</h1>
       <p class="lead">Hi, nice to meet you!</p>
     </div>
   </div>
   ​
-  <div class="bd-example">
+  <!-- carousel -->
+  <div id="portfolio" class="bd-example">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -31,7 +55,8 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <a href="https://easonchang15530.github.io/RPG-Starwars-Game/">
-            <img src="./assets/images/starwars-game.jpg" class="d-block w-100" alt="starwars-game">
+            <img class="carousel-picture" src="./assets/images/starwars-game.jpg" class="d-block w-100"
+              alt="starwars-game">
           </a>
           <div class="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
@@ -40,7 +65,7 @@
         </div>
         <div class="carousel-item">
           <a href="https://easonchang15530.github.io/TriviaGame/">
-            <img src="./assets/images/Trivia-Game.jpg" class="d-block w-100" alt="Trivia-Game">
+            <img class="carousel-picture" src="./assets/images/Trivia-Game.jpg" class="d-block w-100" alt="Trivia-Game">
           </a>
           <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
@@ -49,7 +74,8 @@
         </div>
         <div class="carousel-item">
           <a href="https://easonchang15530.github.io/Train-Scheduler/">
-            <img src="./assets/images/Train-Scheduler.jpg" class="d-block w-100" alt="Train-Scheduler">
+            <img class="carousel-picture" src="./assets/images/Train-Scheduler.jpg" class="d-block w-100"
+              alt="Train-Scheduler">
           </a>
           <div class="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
@@ -68,10 +94,11 @@
     </div>
   </div>
 
-  <div class="container">
+  <!-- card -->
+  <div id="contact" class="container">
     <div class="row">
       <div class="card col-sm" style="width: 18rem;">
-        <img src="http://lorempixel.com/output/sports-q-c-300-300-6.jpg" class="card-img-top" alt="...">
+        <img src="./assets/images/time-machine.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -80,7 +107,7 @@
         </div>
       </div>
       <div class="card col-sm" style="width: 18rem;">
-        <img src="http://lorempixel.com/output/sports-q-c-300-300-6.jpg" class="card-img-top" alt="...">
+        <img src="./assets/images/guess-word.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -89,7 +116,7 @@
         </div>
       </div>
       <div class="card col-sm" style="width: 18rem;">
-        <img src="http://lorempixel.com/output/sports-q-c-300-300-6.jpg" class="card-img-top" alt="...">
+        <img src="./assets/images/gif-t.gif" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -98,7 +125,7 @@
         </div>
       </div>
       <div class="card col-sm" style="width: 18rem;">
-        <img src="http://lorempixel.com/output/sports-q-c-300-300-6.jpg" class="card-img-top" alt="...">
+        <img src="./assets/images/liri-node.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -109,9 +136,12 @@
     </div>
   </div>
   ​
+  <!-- footer -->
   <div class="footer">
     <p>Copyright &copy;</p>
   </div>
+
+  <!-- bootstrap -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -121,6 +151,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <!-- javascript -->
+  <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
