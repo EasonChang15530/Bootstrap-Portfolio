@@ -14,8 +14,9 @@ body {
 }
 
 .jumbotron p {
-  font-family: 'Lobster', cursive;
+  font-family: 'Satisfy', cursive;
   font-size: 30px;
+  color: skyblue;
 }
 
 .carousel-picture {
