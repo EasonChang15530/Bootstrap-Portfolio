@@ -12,7 +12,7 @@ body {
 .jumbotron {
   height: 100vh;
   background-color: transparent !important; 
-  background-image: url("../images/library.jpeg");
+  background-image: url("../images/mainBackground.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -20,10 +20,15 @@ body {
 }
 
 .jumbotron p {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Exo 2', sans-serif;
   font-size: 30px;
   color: skyblue;
+  text-align: left;
 }
+
+/* #profile {
+  float: right;
+} */
 
 .carousel-picture {
   width: 100%;
