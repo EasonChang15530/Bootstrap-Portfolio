@@ -3,10 +3,11 @@ body {
   position: relative;
 }
 
-#navbar-example2 {
+#navbar-example {
   position: fixed;
   width: 100%;
   z-index: 999;
+  /* opacity: 0.7; */
 }
 
 .jumbotron {
@@ -26,10 +27,6 @@ body {
   text-align: left;
 }
 
-/* #profile {
-  float: right;
-} */
-
 .carousel-picture {
   width: 100%;
   height: 100vh;
@@ -38,11 +35,6 @@ body {
 .card {
   width: 25%;
 }
-
-/* .card-img-top {
-  height: 300px;
-  width: 300px;
-} */
 
 .footer {
   height: 22vh;
