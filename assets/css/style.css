@@ -11,14 +11,10 @@ body {
   /* opacity: 0.7; */
 }
 
-/* #about-me{
-  margin-top: 56px;
-} */
-
 .jumbotron {
   height: 100vh;
   background-color: transparent !important; 
-  background-image: url("../images/mainBackground.jpg");
+  background-image: url("../images/mainBackground2.jpeg");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -28,7 +24,7 @@ body {
 .jumbotron p {
   font-family: 'Exo 2', sans-serif;
   font-size: 30px;
-  color: skyblue;
+  color: black;
   text-align: left;
 }
 
